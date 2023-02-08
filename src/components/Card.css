@@ -1,0 +1,161 @@
+section.cards {
+  width: 50vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.card > img {
+  width: 50%;
+  aspect-ratio: 12 / 8;
+  box-shadow: 0 0 15px #888888b0;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+section.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 50%;
+}
+
+section.geo {
+  display: flex;
+  align-items: center;
+}
+
+.geo > span:first-child {
+  color: #F55A5A;
+  font-size: 1.1vw;
+  margin-right: 2px;
+}
+
+.geo > span:last-child {
+  margin-left: 2px;
+  color: #888;
+  font-size: 0.8vw;
+}
+
+.location {
+  font-size: 1vw;
+  color: #444;
+}
+
+.location + a {
+  margin-left: 0.7vw;
+  font-size: 0.7vw;
+  color: #888;
+}
+
+.title {
+  font-size: 1.5vw;
+  margin-right: auto;
+}
+
+.title-rate {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  display: flex;
+  align-items: center;
+  background: #ffffffe5;
+  padding: 0.3rem;
+  border-radius: 6px;
+  color: #DAA520;
+  box-shadow: 0 0 8px #444;
+}
+
+.title-rate > span {
+  font-size: 1.3vw;
+  text-shadow: 0 0 3px #9999997c;
+}
+
+.description {
+  font-size: 1.1vw;
+  width: 70%;
+  color: #333;
+}
+
+.price {
+  letter-spacing: 1px;
+  font-size: 0.8vw;
+}
+
+.price > strong {
+  letter-spacing: -1px;
+  font-size: 1.3vw;
+  color: #F55A5A;
+}
+
+@media (max-width:1200px) {
+  section.cards {
+    width: 90vw;
+  }
+  .card {
+    flex-direction: column;
+    width: 100%;
+  }
+  .card > img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .title-rate {
+    width: a;
+  }
+  .title-rate > span {
+    font-size: 4vw;
+  }
+  section.info {
+    width: 100%;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  section.geo {
+    display: flex;
+    padding-right: 1rem;
+  }
+  .geo > span:first-child {
+    font-size: 5vw;
+  }
+  
+  .geo > span:last-child {
+    font-size: 2.8vw;
+  }
+  
+  .location {
+    font-size: 4vw;
+    color: #444;
+    margin-right: auto;
+  }
+  
+  .location + a {
+    font-size: 2.4vw;
+  }
+  
+  .title {
+    font-size: 6vw;
+  }
+  .description {
+    font-size: 3.5vw;
+    width: 100%;
+  }
+  .price {
+    font-size: 4vw;
+  }
+  .price > strong {
+    font-size: 5vw;
+  }
+}
