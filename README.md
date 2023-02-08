@@ -2,7 +2,7 @@
 
 Displays tiny houses around america
 
-ReactJS, data-driven component
+ReactJS, Vite, data-driven component
 
 # Preview/Demo
 link
