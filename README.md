@@ -1,7 +1,5 @@
 # weeamerica.
 
-Displays tiny houses around america
-
 ReactJS, Vite, data-driven component
 
 # Preview/Demo
