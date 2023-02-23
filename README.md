@@ -1,6 +1,7 @@
 # weeamerica.
 
-ReactJS, Vite, data-driven component
+React (Vite)
+reusable data-driven component
 
 # Preview/Demo
 
