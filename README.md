@@ -8,3 +8,9 @@ reusable data-driven component
 https://gesserweeamerica.netlify.app
 
 <img src="https://i.imgur.com/AjxwcZ4.jpg" />
+
+## ⚡ **How to run**
+
+```bash
+npm run dev
+```
