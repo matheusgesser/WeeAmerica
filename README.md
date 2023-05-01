@@ -5,7 +5,7 @@ reusable data-driven component
 
 # Preview/Demo
 
-https://gesserweeamerica.netlify.app
+https://weeamerica.netlify.app
 
 <img src="https://i.imgur.com/AjxwcZ4.jpg" />
 
